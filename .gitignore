@@ -48,6 +48,7 @@ jspm_packages/
 /node_modules
 /.pnp
 .pnp.js
+package-lock.json
 
 # TypeScript v1 declaration files
 typings/
