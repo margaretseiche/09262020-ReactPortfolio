@@ -1,3 +1,52 @@
-nav.navbar.navbar-default {
+/* nav.navbar.navbar-default {
   margin-bottom: 0;
+} */
+
+header {
+    padding: 20px;
+    background-color: #4537c2;
+    color:white;
+}
+
+header h1 {
+    display: inline-block;
+    font-family: "Kaushan Script";
+    font-size: 48px;
+    margin-left: 20px; 
+    margin-right: 20px; 
+}
+
+header nav {
+    padding-top: 10px;
+    margin-right: 20px;
+    float: right;
+    font-family: "Ubuntu";
+    font-size: 20px;
+}
+
+.nav-tabs {
+    list-style-type: none;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-left: 10px; 
+    margin-right: 10px; 
+    color: white;
+}
+
+.active {
+    background-color: #d5ddfd;
+}
+
+.dormant {
+    background-color: transparent;
+}
+
+/* :hover{
+    color: rgb(252, 232, 120);
+} */
+
+a.nav-link {
+    color: white;
 }

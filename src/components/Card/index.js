@@ -1,26 +1,30 @@
 import React from "react";
-import CardBtn from "../CardBtn";
 import "./style.css";
 
-function Card(props) {
+function FriendCard(props) {
   return (
-    <div
-      className="card"
-      style={{
-        backgroundImage: props.image ? `url(${props.image})` : "none"
-      }}
-    >
-      {!props.image && <i className="fa fa-spinner fa-spin" aria-hidden="true" />}
-      <CardBtn
-        onClick={props.handleBtnClick}
-        data-value="pass"
-      />
-      <CardBtn
-        onClick={props.handleBtnClick}
-        data-value="pick"
-      />
+    <div className="card">
+      <div className="img-container">
+        <img alt={props.name} src={props.image} />
+      </div>
+      <div className="content">
+        <ul>
+          <li>
+            <strong>Name:</strong> {props.name}
+          </li>
+          <li>
+            <strong>Occupation:</strong> {props.occupation}
+          </li>
+          <li>
+            <strong>Location:</strong> {props.location}
+          </li>
+        </ul>
+      </div>
+      <span onClick={() => props.removeFriend(props.id)} className="remove">
+        𝘅
+      </span>
     </div>
   );
 }
 
-export default Card;
+export default FriendCard;
