@@ -16,7 +16,7 @@ function About() {
           
           <div className="row" id="feature">                
             <div className="col-md-4">    
-              <img id="about-image" src="../assets/MargaretSeiche.JPG" className="float-left"
+              <img id="about-image" src="/assets/MargaretSeiche.JPG" className="float-left"
                   alt="Margaret has brown hair and eyeglasses." title="headshot of Margaret Seiche"/>                          
               <p>Experience leading remote teams for large-scale projects with overlapping deadlines</p>
             </div>
@@ -51,7 +51,7 @@ function About() {
                   <h4>Coding Bootcamp</h4>
               </div>    
               <div className="row">   
-                  <img id="about-image" src="./assets/images/ColumbiaEngineering.png" className="float-left"
+                  <img id="about-image" src="/assets/ColumbiaEngineering.png" className="float-left"
                             alt="Columbia Engineering" title="Columbia Engineering"/>
                   <div>
                     <h6>COLUMBIA UNIVERSITY</h6>
@@ -67,7 +67,7 @@ function About() {
                 <h4>MBA</h4>
               </div>
               <div className="row"> 
-                <img id="about-image" src="./assets/images/ChicagoBooth——transparent.png" className="float-left"
+                <img id="about-image" src="/assets/ChicagoBooth——transparent.png" className="float-left"
                     alt="Chicago Booth MBA" title="Chicago Booth MBA"/>
                 <div>      
                   <h6>UNIVERSITY OF CHICAGO</h6>              
@@ -81,7 +81,7 @@ function About() {
                 <h4>Undergraduate</h4> 
               </div>
               <div className="row">         
-                <img id="about-image" src="./assets/images/Middlebury——transparent.png"  className="float-left"
+                <img id="about-image" src="/assets/Middlebury——transparent.png"  className="float-left"
                           alt="crest of Middlebury College" title="crest of Middlebury College"/>
                 <div>  
                   <h6>MIDDLEBURY COLLEGE</h6>   

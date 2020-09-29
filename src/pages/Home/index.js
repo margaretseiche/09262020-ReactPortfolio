@@ -25,7 +25,7 @@ function Home() {
 
           <section id="intro">
 
-            <img id="bio-image" src="1.JPG" alt="Margaret Seiche" />
+            <img id="bio-image" src="/assets/MargaretSeiche.JPG" alt="Margaret Seiche" />
             {/* <img id="bio-image" src="../../assets/MargaretSeiche.JPG" alt="Margaret Seiche" /> */}
           </section>
 

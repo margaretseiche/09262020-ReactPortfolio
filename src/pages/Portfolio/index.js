@@ -33,21 +33,21 @@ class Portfolio extends Component {
 
               <div className="row col-md-12" id="portfolio">
 
-              {this.state.projects.map(project => (
+                {this.state.projects.map(project => (
 
-<PortfolioCard
+                  <PortfolioCard
 
-  id={project.id}
-  key={project.id}
-  title={project.title}
-  github={project.github}
-  deployed={project.deployed}
-  image={project.image}
-  alt={project.alt}
-  text={project.text}
+                    id={project.id}
+                    key={project.id}
+                    title={project.title}
+                    github={project.github}
+                    deployed={project.deployed}
+                    image={project.image}
+                    alt={project.alt}
+                    text={project.text}
 
-/>
-))}
+                  />
+                ))}
 
 
 
@@ -58,7 +58,7 @@ class Portfolio extends Component {
 
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
-                          <img src="../assets/TravelPlanner.JPG" className="card-img-top" id="card-image"
+                          <img src="/assets/TravelPlanner.JPG" className="card-img-top" id="card-image"
                             alt="travel planning website" />
                           <div className="card-body">
                             <h5 className="card-title">Travel Planner</h5>
@@ -75,7 +75,7 @@ class Portfolio extends Component {
 
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
-                          <img src="./assets/images/PasswordGenerator.JPG" className="card-img-top" id="card-image"
+                          <img src="/assets/PasswordGenerator.JPG" className="card-img-top" id="card-image"
                             alt="snapshot of password generator" />
                           <div className="card-body">
                             <h5 className="card-title">Password Generator</h5>
@@ -92,7 +92,7 @@ class Portfolio extends Component {
                       <div className="col-sm">
 
                         <div className="card" id="portfolio-card">
-                          <img src="./assets/images/DayPlanner.JPG" className="d-block w-100" alt="" />
+                          <img src="/assets/DayPlanner.JPG" className="d-block w-100" alt="" />
                           <div className="card-body">
                             <h5 className="card-title">Day Planner with Weather Update</h5>
                             <p className="card-text">Used Moment.js, local storage, and a weather API to create a scheduling app
@@ -117,7 +117,7 @@ class Portfolio extends Component {
 
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
-                          <img src="./assets/images/local4.JPG" className="card-img-top" id="card-image" alt="" />
+                          <img src="/assets/local4.JPG" className="card-img-top" id="card-image" alt="" />
                           <div className="card-body">
                             <h5 className="card-title">Burger App</h5>
                             <p className="card-text">Deployed a food ordering app on Heroku with MySQL and Handlebars</p>
@@ -132,7 +132,7 @@ class Portfolio extends Component {
                       <div className="col-sm">
 
                         <div className="card" id="portfolio-card">
-                          <img src="./assets/images/EmployeeDirectory.JPG" className="d-block w-100" alt="" />
+                          <img src="/assets/EmployeeDirectory.JPG" className="d-block w-100" alt="" />
                           <div className="card-body">
                             <h5 className="card-title">Team Directory</h5>
                             <p className="card-text">Developed a Command Line Interface for creating a team profile webpage with
@@ -149,7 +149,7 @@ class Portfolio extends Component {
 
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
-                          <img src="./assets/images/ReadMeDemo.JPG" className="card-img-top" id="card-image"
+                          <img src="/assets/ReadMeDemo.JPG" className="card-img-top" id="card-image"
                             alt="snapshot of ReadMe generator" />
                           <div className="card-body">
                             <h5 className="card-title">ReadMe Generator</h5>
@@ -172,14 +172,14 @@ class Portfolio extends Component {
 
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
-                          <img src="./assets/images/FBCwebsite.JPG" className="card-img-top" id="card-image"
+                          <img src="/assets/FBCwebsite.JPG" className="card-img-top" id="card-image"
                             alt="redesigned website homepage" />
                           <div className="card-body">
                             <h5 className="card-title">Website Re-design</h5>
                             <p className="card-text">Using a new platform, I re-designed
                           a trilingual website, taking it from text-heavy to personable.</p>
 
-                            <a href="./assets/Churchwebsite_originalversion.pdf" className="btn btn-primary" id="button"
+                            <a href="/assets/Churchwebsite_originalversion.pdf" className="btn btn-primary" id="button"
                               style={style.image} target="_blank" rel="noopener noreferrer">Before</a>
                             <a href="https://www.fbcflushing.org/" className="btn btn-primary" id="button"
                               target="_blank" rel="noopener noreferrer">After</a>
@@ -189,7 +189,7 @@ class Portfolio extends Component {
                       </div>
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
-                          <video src="./assets/acamis.mp4" className="card-img-top" controls muted >Video of a
+                          <video src="/assets/acamis.mp4" className="card-img-top" controls muted >Video of a
                         conference</video>
                           <div className="card-body">
                             <h5 className="card-title">Event Management</h5>
@@ -214,30 +214,30 @@ class Portfolio extends Component {
                             </ol>
                             <div className="carousel-inner">
                               <div className="carousel-item active">
-                                <img src="./assets/images/FriendsPage1.JPG" className="d-block w-100"
+                                <img src="/assets/FriendsPage1.JPG" className="d-block w-100"
                                   alt="Friends of Dulwich Beijing" />
                               </div>
                               <div className="carousel-item">
-                                <img src="./assets/images/FriendsPage2.JPG" className="d-block w-100"
+                                <img src="/assets/images/FriendsPage2.JPG" className="d-block w-100"
                                   alt="Friends means friendship." />
                               </div>
                               <div className="carousel-item">
-                                <img src="./assets/images/FriendsPage3.JPG" className="d-block w-100" alt="Fun while fundraising" />
+                                <img src="/assets/images/FriendsPage3.JPG" className="d-block w-100" alt="Fun while fundraising" />
                               </div>
                               <div className="carousel-item">
-                                <img src="./assets/images/FriendsPage4.JPG" className="d-block w-100"
+                                <img src="/assets/images/FriendsPage4.JPG" className="d-block w-100"
                                   alt="Partnership with the school." />
                               </div>
                               <div className="carousel-item">
-                                <img src="./assets/images/FriendsPage5.JPG" className="d-block w-100"
+                                <img src="/assets/images/FriendsPage5.JPG" className="d-block w-100"
                                   alt="Fundraising is part of Friends." />
                               </div>
                               <div className="carousel-item">
-                                <img src="./assets/images/FriendsPage6.JPG" className="d-block w-100"
+                                <img src="/assets/images/FriendsPage6.JPG" className="d-block w-100"
                                   alt="Friends is about friendship too." />
                               </div>
                               <div className="carousel-item">
-                                <img src="./assets/images/FriendsPage7.JPG" className="d-block w-100"
+                                <img src="/assets/images/FriendsPage7.JPG" className="d-block w-100"
                                   alt="There is a place for you with Friends." />
                               </div>
                             </div>
@@ -256,7 +256,7 @@ class Portfolio extends Component {
                           <div className="card-body">
                             <h5 className="card-title">Non-Profit Management</h5>
                             <p className="card-text">With a team, grew retail and event surpluses 64% annually for 10 years.</p>
-                            <a href="./assets/Friends2006to2016.pdf" className="btn btn-primary" id="button"
+                            <a href="/assets/Friends2006to2016.pdf" className="btn btn-primary" id="button"
                               target="_blank" rel="noopener noreferrer">Download the PDF</a>
                           </div>
                         </div>

@@ -4,7 +4,7 @@
     "title": "Travel Planner",
     "github": "https://github.com/margaretseiche/Project-1-Playground",
     "deployed": "https://margaretseiche.github.io/Project-1-Playground/",
-    "image": "../assets/TravelPlanner.JPG",
+    "image": "/assets/TravelPlanner.JPG",
     "alt": "travel planning website",
     "text": "Partnered with 4 other developers to create a trip search engine using 3 APIs"
   },
@@ -13,7 +13,7 @@
     "title": "Password Generator",
     "github": "https://github.com/margaretseiche/05212020-Password-Generator",
     "deployed": "https://margaretseiche.github.io/05212020-Password-Generator/",
-    "image": "./assets/images/PasswordGenerator.JPG",
+    "image": "/assets/images/PasswordGenerator.JPG",
     "alt": "snapshot of password generator",
     "text": "Created a means for users to generate random passwords with specified criteria"
   },
@@ -22,7 +22,7 @@
     "title": "Day Planner with Weather Update",
     "github": "https://github.com/margaretseiche/07072020-DayPlannerAndWeather",
     "deployed": "https://margaretseiche.github.io/07072020-DayPlannerAndWeather/",
-    "image": "./assets/images/DayPlanner.JPG",
+    "image": "/assets/images/DayPlanner.JPG",
     "alt": "day planner",
     "text": "Used Moment.js, local storage, and a weather API to create a scheduling app"
   },
@@ -31,7 +31,7 @@
     "title": "Burger App",
     "github": "https://github.com/margaretseiche/08082020-Handlebars-Burgers",
     "deployed": "https://mburgerapp.herokuapp.com",
-    "image": "./assets/images/local4.JPG",
+    "image": "/assets/images/local4.JPG",
     "alt": "burger ordering application",
     "text": "Deployed a food ordering app on Heroku with MySQL and Handlebars"
   },
@@ -40,7 +40,7 @@
     "title": "Team Directory",
     "github": "https://github.com/margaretseiche/07162020-EmployeeDirectory",
     "deployed": "https://youtu.be/yS8ZmDgy3n8",
-    "image": "./assets/images/EmployeeDirectory.JPG",
+    "image": "/assets/images/EmployeeDirectory.JPG",
     "alt": "team directory",
     "text": "Developed a Command Line Interface for creating a team profile webpage with Handlebars"
   },
@@ -49,7 +49,7 @@
     "title": "ReadMe Generator",
     "github": "https://github.com/margaretseiche/07112020-ReadmeGenerator",
     "deployed": "https://youtu.be/C4KLrUpt-M8",
-    "image": "./assets/images/ReadMeDemo.JPG",
+    "image": "/assets/images/ReadMeDemo.JPG",
     "alt": "ReadMe generator",
     "text": "Created a command line interface for developers to make formatted ReadMe files"
   }
