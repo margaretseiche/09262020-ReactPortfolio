@@ -2,6 +2,8 @@ import React, { Component } from "react";
 // import API from "../utils/API";
 // import Card from "../../components/Card";
 import Navbar from "../../components/Navbar";
+import PortfolioCard from "../../components/PortfolioCard";
+import projects from "../../projects.json";
 import "./style.css";
 
 const style = {
@@ -12,6 +14,9 @@ const style = {
 }
 
 class Portfolio extends Component {
+  state = {
+    projects
+  };
 
   render() {
     return (
@@ -28,6 +33,24 @@ class Portfolio extends Component {
 
               <div className="row col-md-12" id="portfolio">
 
+              {this.state.projects.map(project => (
+
+<PortfolioCard
+
+  id={project.id}
+  key={project.id}
+  title={project.title}
+  github={project.github}
+  deployed={project.deployed}
+  image={project.image}
+  alt={project.alt}
+  text={project.text}
+
+/>
+))}
+
+
+
                 <div className="col-md-4" id="front">
 
                   <div className="row" id="featurePortfolioHeading">Front-End
@@ -35,7 +58,7 @@ class Portfolio extends Component {
 
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
-                          <img src="./assets/images/TravelPlanner.JPG" className="card-img-top" id="card-image"
+                          <img src="../assets/TravelPlanner.JPG" className="card-img-top" id="card-image"
                             alt="travel planning website" />
                           <div className="card-body">
                             <h5 className="card-title">Travel Planner</h5>
@@ -127,7 +150,7 @@ class Portfolio extends Component {
                       <div className="col-sm">
                         <div className="card" id="portfolio-card">
                           <img src="./assets/images/ReadMeDemo.JPG" className="card-img-top" id="card-image"
-                            alt="snapshot of password generator" />
+                            alt="snapshot of ReadMe generator" />
                           <div className="card-body">
                             <h5 className="card-title">ReadMe Generator</h5>
                             <p className="card-text">Created a command line interface for developers to make formatted ReadMe files</p>
