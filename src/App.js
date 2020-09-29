@@ -5,17 +5,13 @@ import About from "./pages/About/index";
 import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
 import NoMatchPage from "./pages/NoMatch";
-import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-import Wrapper from "./components/Wrapper";
+// import Wrapper from "./components/Wrapper";
 
 class App extends React.Component {
   render() {
     return (
       <Router>
-        <div>
-          <Navbar />
-          <Wrapper>
             <Switch>
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
@@ -24,9 +20,7 @@ class App extends React.Component {
               <Route path="/404" component={NoMatchPage} />
               <Redirect to="/404" />
             </Switch>
-          </Wrapper>
           <Footer />
-        </div>
       </Router>
     );
   }

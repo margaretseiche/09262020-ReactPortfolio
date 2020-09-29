@@ -2,40 +2,40 @@
   {
     "id": 1,
     "name": "Github",
-    "ref": "https://github.com/margaretseiche",
-    "image": ".../public/images/socialmedia/Github-gray.png",
+    "reference": "https://github.com/margaretseiche",
+    "image": "./Github-gray.png",
     "alt": "Github link",
     "title": "Github link"
   },
   {
     "id": 2,
     "name": "LinkedIn",
-    "ref": "https://www.linkedin.com/in/margaret-seiche-06451743/",
-    "image": "/%PUBLIC_URL%/assets/socialmedia/LinkedIn-gray.png",
+    "reference": "https://www.linkedin.com/in/margaret-seiche-06451743/",
+    "image": ".././assets/socialmedia/LinkedIn-gray.png",
     "alt": "LinkedIn link",
     "title": "LinkedIn link"
   },
   {
     "id": 3,
     "name": "Email",
-    "ref": "mailto:margaretseiche@hotmail.com",
-    "image": "/%PUBLIC_URL%/assets/socialmedia/Email-gray.png",
+    "reference": "mailto:margaretseiche@hotmail.com",
+    "image": ".././assets/socialmedia/Email-gray.png",
     "alt": "Email link",
     "title": "Email link"
   },
   {
     "id": 4,
     "name": "Facebook",
-    "ref": "https://www.facebook.com/margaret.seiche/",
-    "image": "/%PUBLIC_URL%/assets/socialmedia/Facebook-gray.png",
+    "reference": "https://www.facebook.com/margaret.seiche/",
+    "image": "./assets/socialmedia/Facebook-gray.png",
     "alt": "Facebook link",
     "title": "Facebook link"
   },
   {
     "id": 5,
     "name": "Instagram",
-    "ref": "https://www.instagram.com/margaretseiche/",
-    "image": "/%PUBLIC_URL%/assets/socialmedia/Instagram-gray.png",
+    "reference": "https://www.instagram.com/margaretseiche/",
+    "image": "./assets/socialmedia/Instagram-gray.png",
     "alt": "Instagram link",
     "title": "Instagram link"
   }

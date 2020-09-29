@@ -14,7 +14,8 @@ function Navbar() {
           <div>
             <ul className="nav nav-tabs">
               <li className="nav-item">
-                <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link dormant"}>
+                {/* <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link dormant"}> */}
+                <Link to="/" className={window.location.pathname === "/" ? "nav-link active" : "nav-link dormant"}>  
                   Home
                 </Link>
               </li>

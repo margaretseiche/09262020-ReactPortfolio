@@ -1,71 +1,59 @@
 import React, { Component } from "react";
+// import React from "react";
+
 // import API from "../utils/API";
-import Container from "../../components/Container";
-import "../../contact.json";
+
+import Navbar from "../../components/Navbar";
+import ContactCard from "../../components/ContactCard";
+import contacts from "../../contact.json";
 import "./style.css";
 
-// const style = {
-//   style: {
-//     borderRadius: "5px"
-//   },
-//   submitButton: {
-//     textAlign: "right"
-//   }  
-// }
-
 class Contact extends Component {
+  // function Contact(props) {
   state = {
-    search: "",
-    breeds: [],
-    results: [],
-    error: ""
+    contacts
   };
 
   render() {
     return (
       <div>
-        <Container style={{ minHeight: "80%" }}>
-          <h1 className="text-center">test</h1>
-          <main>
-      <div className="container-fluid">
-        <article className="socialmedia">
-          <div className="row articleHeading">
-            <div className="col-12"><h3>Follow Me</h3></div>
-          </div>    
+        <Navbar />
 
-          <div className="row" id="feature">   
-            <div className="col-1"></div>
-            <div className="col-2">
-              <a href="https://github.com/margaretseiche" target="_blank" rel="noopener noreferrer">
-                <img id="social" src=".../%PUBLIC_URL%/assets/socialmedia/Github-gray.png" alt="Github link" title="Github link"/>
-              </a>  
-            </div> 
-            <div className="col-2">
-              <a href="https://www.linkedin.com/in/margaret-seiche-06451743/" target="_blank" rel="noopener noreferrer">
-                <img id="social" src=".../%PUBLIC_URL%/assets/socialmedia/LinkedIn-gray.png" alt="LinkedIn" title="LinkedIn"/>
-              </a>       
-            </div>
-            <div className="col-2">
-              <a href="mailto:margaretseiche@hotmail.com" target="_blank" rel="noopener noreferrer">
-                <img id="social" src=".../%PUBLIC_URL%/assets/socialmedia/Email-gray.png" alt="Email address" title="Email address"/>
-              </a>                 
-            </div>
-            <div className="col-2">
-              <a href="https://www.facebook.com/margaret.seiche/" target="_blank" rel="noopener noreferrer">
-                <img id="social" src=".../%PUBLIC_URL%/assets/socialmedia/Facebook-gray.png" alt="Facebook link" title="Facebook link"/>
-              </a>       
-            </div>
-            <div className="col-2">    
-              <a href="https://www.instagram.com/margaretseiche/" target="_blank" rel="noopener noreferrer">
-                <img id="social" src=".../%PUBLIC_URL%/assets/socialmedia/Instagram-gray.png" alt="Instagram link" title="Instagram link"/>
-              </a>            
-            </div>
-          </div>  
-      </article>
+        <h1 className="text-center">test</h1>
+        <main>
+          <div className="container-fluid">
+            <article className="socialmedia">
+
+              <div className="row articleHeading">
+                <div className="col-12"><h3>Follow Me</h3></div>
+              </div>
+
+              <div className="row" id="feature">
+                <div className="col-1"></div>
+
+                {/* <div className="col-2"> */}
+                {this.state.contacts.map(contact => (
+
+                  <ContactCard
+
+                    id={contact.id}
+                    key={contact.id}
+                    name={contact.name}
+                    reference={contact.reference}
+                    image={contact.image}
+                    alt={contact.alt}
+                    title={contact.title}
+
+                  />
+                ))}
+
+                {/* </div> */}
+
+              </div>
+            </article>
 
 
-      
-      {/* <article className="email">
+            {/* <article className="email">
         <div className="row articleHeading">
           <div className="col-md-12"><h3>Or Email Me</h3></div>
         </div>
@@ -100,9 +88,9 @@ class Contact extends Component {
           </form>    
         </div> 
       </article>    */}
-    </div>
-    </main>
-        </Container>
+          </div>
+        </main>
+
       </div>
     );
   }
