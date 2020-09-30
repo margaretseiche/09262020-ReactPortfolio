@@ -1,13 +1,9 @@
 import React from "react";
-// import Container from "../../components/Container";
 import Bio from "../../components/Bio";
 import Navbar from "../../components/Navbar";
 import "./style.css";
 
 const style = {
-  // containerStyle: {
-  //   marginTop: "5em"
-  // },
   spanStyle: {
     color: "#4537c2",
     fontSize: "20px"
@@ -18,7 +14,6 @@ function Home() {
   return (
     <div className="background">
 
-      {/* <Container > */}
       <Navbar />
       <main id="indexmain">
         <Bio >
@@ -26,7 +21,6 @@ function Home() {
           <section id="intro">
 
             <img id="bio-image" src="/assets/MargaretSeiche.JPG" alt="Margaret Seiche" />
-            {/* <img id="bio-image" src="../../assets/MargaretSeiche.JPG" alt="Margaret Seiche" /> */}
           </section>
 
           <section id="main-bio">
@@ -35,7 +29,6 @@ function Home() {
           </section>
         </Bio>
       </main>
-      {/* </Container> */}
     </div>
   );
 }

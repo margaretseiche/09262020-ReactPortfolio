@@ -6,7 +6,6 @@ import Portfolio from "./pages/Portfolio/index";
 import Contact from "./pages/Contact/index";
 import NoMatchPage from "./pages/NoMatch";
 import Footer from "./components/Footer";
-// import Wrapper from "./components/Wrapper";
 
 class App extends React.Component {
   render() {

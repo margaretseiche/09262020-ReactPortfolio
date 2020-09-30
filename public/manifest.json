@@ -3,7 +3,7 @@
   "name": "Portfolio for Margaret Seiche",
   "icons": [
     {
-      "src": "./MargaretSeiche.JPG",
+      "src": "/assets/MargaretSeiche.JPG",
       "type": "image/JPG",
       "sizes": "192x192"
     }

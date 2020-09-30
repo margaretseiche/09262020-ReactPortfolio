@@ -6,7 +6,7 @@ function About() {
   return (
     <div>
     <Navbar/>
-    <main>
+    <main className="mainTop">
       <div className="container-fluid">
 
         <article className="Personal">

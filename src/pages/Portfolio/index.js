@@ -22,7 +22,7 @@ class Portfolio extends Component {
     return (
       <div>
         <Navbar />
-        <main>
+        <main className="mainTop">
           <div className="container-fluid">
             <article id="parentportfolio">
               <div className="row articleHeading" id="portfolioheading">
