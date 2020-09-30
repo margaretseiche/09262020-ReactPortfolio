@@ -1,4 +1,4 @@
-/* .card {
+.card {
   background: #fff;
   border-radius: 2px;
   height: 325px;
@@ -44,18 +44,5 @@
 
 .card > .remove:hover {
   color: #d50000;
-} */
-
-#social {
-  max-height: 90px;
-  padding-top:10px;
-  padding-bottom:10px;
-  display:block;
-  margin:auto;
-  justify-content: center;
 }
 
-input[type=email], input[type=text], textarea {
-  width: 100%;
-  resize: vertical;
-}

@@ -28,10 +28,10 @@ class Contact extends Component {
                 <div className="col-12"><h3>Follow Me</h3></div>
               </div>
 
-              <div className="row" id="feature">
-                <div className="col-1"></div>
+              <div className="row justify" id="feature">
+                {/* <div className="col-1"></div> */}
 
-                {/* <div className="col-2"> */}
+                {/* <div className="col-2 float"> */}
                 {this.state.contacts.map(contact => (
 
                   <ContactCard

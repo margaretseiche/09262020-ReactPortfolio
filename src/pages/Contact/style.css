@@ -5,9 +5,17 @@
     display:block;
     margin:auto;
     justify-content: center;
+    padding-left: 50%;
+    padding-right: 50%;
 }
 
 input[type=email], input[type=text], textarea {
     width: 100%;
     resize: vertical;
+}
+
+.justify {
+    justify-content: center;
+    display: flex;
+    align-content: center;
 }
