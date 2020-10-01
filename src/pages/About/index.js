@@ -1,5 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 import Navbar from "../../components/Navbar";
+// import AboutEducationCard from "../../components/AboutEducationCard";
+// import AboutWorkCard from "../../components/AboutWorkCard";
+
+// import schools from "../../abouted.json";
+// import works from "../../aboutwork.json";
 import "./style.css";
 
 function About() {

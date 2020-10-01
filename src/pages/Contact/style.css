@@ -5,6 +5,7 @@
     display:block;
     margin:auto;
     justify-content: center;
+    align-items: stretch;
     padding-left: 50%;
     padding-right: 50%;
 }

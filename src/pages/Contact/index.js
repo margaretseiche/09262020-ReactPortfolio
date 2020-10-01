@@ -1,15 +1,11 @@
 import React, { Component } from "react";
-// import React from "react";
-
-// import API from "../utils/API";
-
 import Navbar from "../../components/Navbar";
 import ContactCard from "../../components/ContactCard";
 import contacts from "../../contact.json";
 import "./style.css";
 
 class Contact extends Component {
-  // function Contact(props) {
+
   state = {
     contacts
   };
@@ -29,9 +25,7 @@ class Contact extends Component {
               </div>
 
               <div className="row justify" id="feature">
-                {/* <div className="col-1"></div> */}
 
-                {/* <div className="col-2 float"> */}
                 {this.state.contacts.map(contact => (
 
                   <ContactCard
