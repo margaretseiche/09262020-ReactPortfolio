@@ -4,7 +4,8 @@
 ![](https://img.shields.io/badge/Number%20of%20Contributors-1-blue)
 ![](https://img.shields.io/badge/License-MIT-red)
 
-* Deployed on Github pages at https://margaretseiche.github.io/reactportfolio/
+* Deployed on Heroku at https://secure-eyrie-82756.herokuapp.com/
+* Attempted to deployed on Github pages at https://margaretseiche.github.io/portfolio/
 * Used React to break the application framework into components
 
 ![Snapshot of Deployed Version](/public/portfoliodeploy.JPG)
