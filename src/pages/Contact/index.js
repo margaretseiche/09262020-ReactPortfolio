@@ -40,8 +40,15 @@ class Contact extends Component {
 
                   />
                 ))}
+                </div>
 
-                {/* </div> */}
+              <div className="row articleHeading">
+                <div className="col-12"><h3>Or Give Me a Call</h3></div>
+              </div>
+
+              <div className="row justify" id="feature">
+              
+              <h5 id="phone">Phone: 917 651 4912</h5>   
 
               </div>
             </article>

@@ -20,3 +20,11 @@ input[type=email], input[type=text], textarea {
     display: flex;
     align-content: center;
 }
+
+#phone {
+    justify-content: center;
+    align-content: center;
+    text-decoration: none;
+    color: black;
+    font-size: 1.5em;
+}

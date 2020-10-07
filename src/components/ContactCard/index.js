@@ -11,6 +11,7 @@ function ContactCard(props) {
         </a>
       </div>
 
+
     </div>
   );
 }
